@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trestech</title>
+    <meta name="description" content="Trestech erbjuder professionella IT-tjänster med fokus på kvalitet och kundnöjdhet. Från serverinstallationer till skräddarsydda PC-byggen." />
+    <meta name="keywords" content="IT-tjänster, serverinstallation, datorbygge, IT-konsult, nätverk, Mjölby" />
+    <title>Trestech | Professionella IT-tjänster</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -15,5 +18,35 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Trestech",
+      "image": "",
+      "@id": "",
+      "url": "https://trestech.se",
+      "telephone": "070-071 17 69",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Albacksvägen 8 Lgh 1002",
+        "addressLocality": "Mjölby",
+        "postalCode": "595 50",
+        "addressCountry": "SE"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    }
+    </script>
   </body>
 </html>
